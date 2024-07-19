@@ -1,5 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
+# Before
+from werkzeug.urls import url_quote
 
 @app.route("/")
 def hello():
